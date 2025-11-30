@@ -1,0 +1,69 @@
+# Marketplace Category Definitions
+# These categories are used for organizing extensions, templates, and bundles
+
+categories:
+  project_management:
+    name: Project Management
+    description: Tools for managing projects, sprints, and team workflows
+    icon: bi-kanban
+    color: "#4B6BFB"
+
+  marketing:
+    name: Marketing
+    description: Campaign management, content workflows, and marketing automation
+    icon: bi-megaphone
+    color: "#E74C3C"
+
+  development:
+    name: Development
+    description: Software development tools, CI/CD integrations, and code management
+    icon: bi-code-square
+    color: "#27AE60"
+
+  communication:
+    name: Communication
+    description: Email, chat, and notification integrations
+    icon: bi-chat-dots
+    color: "#9B59B6"
+
+  automation:
+    name: Automation
+    description: Workflow automation and integration platforms
+    icon: bi-gear
+    color: "#F39C12"
+
+  productivity:
+    name: Productivity
+    description: Time tracking, capacity planning, and efficiency tools
+    icon: bi-clock
+    color: "#1ABC9C"
+
+  operations:
+    name: Operations
+    description: Order management, fulfillment, and operational workflows
+    icon: bi-box-seam
+    color: "#34495E"
+
+  suite:
+    name: Solution Suites
+    description: Complete solution bundles combining templates, extensions, and analytics
+    icon: bi-collection
+    color: "#8E44AD"
+
+# Plan levels for feature gating
+plans:
+  free:
+    name: Free
+    description: Available to all users
+
+  starter:
+    name: Starter
+    description: Basic paid features
+
+  professional:
+    name: Professional
+    description: Advanced features for growing teams
+
+  enterprise:
+    name: Enterprise
+    description: Full platform capabilities with dedicated support

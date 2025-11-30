@@ -1,0 +1,37 @@
+# Developer Toolkit Bundle
+# Sprint-based development workflow with GitHub integration and team notifications
+
+id: developer_toolkit
+name: Developer Toolkit
+description: |
+  Sprint-based agile development workflow with GitHub integration for issue sync,
+  PR tracking, and commit linking. Includes Slack notifications for team updates
+  and sprint ceremonies coordination.
+version: "1.0.0"
+
+category: development
+tags:
+  - development
+  - agile
+  - scrum
+  - github
+  - sprints
+  - code-review
+  - collaboration
+
+featured: true
+
+contents:
+  templates:
+    - scrum
+  extensions:
+    - dev.kiket.ext.github
+    - dev.kiket.ext.slack
+  analytics: []
+
+requirements:
+  min_plan: professional
+
+maintainer: Kiket
+documentation: https://docs.kiket.dev/bundles/developer-toolkit
+license: MIT

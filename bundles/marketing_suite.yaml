@@ -1,0 +1,38 @@
+# Marketing Suite Bundle
+# Complete marketing operations solution with campaign management, content workflows, and integrations
+
+id: marketing_suite
+name: Marketing Suite
+description: |
+  Complete marketing operations solution with campaign management, content workflows,
+  and integrations. Includes email automation, team collaboration via Slack,
+  and Make.com integration for advanced marketing automation scenarios.
+version: "1.0.0"
+
+category: marketing
+tags:
+  - marketing
+  - campaigns
+  - content
+  - automation
+  - analytics
+  - email
+  - collaboration
+
+featured: true
+
+contents:
+  templates:
+    - kanban
+  extensions:
+    - dev.kiket.ext.email
+    - dev.kiket.ext.slack
+    - dev.kiket.ext.make
+  analytics: []
+
+requirements:
+  min_plan: professional
+
+maintainer: Kiket
+documentation: https://docs.kiket.dev/bundles/marketing-suite
+license: MIT

@@ -1,0 +1,40 @@
+# Customer Support Bundle
+# E-commerce support workflows with multi-channel communication
+
+id: customer_support
+name: Customer Support
+description: |
+  Complete customer support solution for e-commerce operations. Includes order
+  and fulfillment tracking workflows, email notifications, Slack alerts,
+  Microsoft Teams integration, and Twilio SMS for urgent customer communication.
+version: "1.0.0"
+
+category: operations
+tags:
+  - support
+  - customer-service
+  - ecommerce
+  - orders
+  - fulfillment
+  - multi-channel
+  - sms
+  - email
+
+featured: true
+
+contents:
+  templates:
+    - ecommerce
+  extensions:
+    - dev.kiket.ext.email
+    - dev.kiket.ext.slack
+    - dev.kiket.ext.teams
+    - dev.kiket.ext.twilio
+  analytics: []
+
+requirements:
+  min_plan: professional
+
+maintainer: Kiket
+documentation: https://docs.kiket.dev/bundles/customer-support
+license: MIT
