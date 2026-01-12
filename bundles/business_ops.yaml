@@ -62,6 +62,28 @@ optional_templates:
 requirements:
   min_plan: professional
 
+# Template to extension dependency mapping
+template_dependencies:
+  support:
+    - dev.kiket.ext.email
+    - dev.kiket.ext.slack
+  sales:
+    - dev.kiket.ext.email
+    - dev.kiket.ext.slack
+  engineering:
+    - dev.kiket.ext.github
+    - dev.kiket.ext.slack
+  marketing:
+    - dev.kiket.ext.email
+  partners:
+    - dev.kiket.ext.email
+  product:
+    - dev.kiket.ext.github
+  finance:
+    - dev.kiket.ext.email
+  legal:
+    - dev.kiket.ext.email
+
 maintainer: Kiket
-documentation: https://docs.kiket.dev/bundles/business-ops
+documentation: https://docs.kiket.dev/marketplace/bundles
 license: MIT
