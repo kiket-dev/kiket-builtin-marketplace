@@ -1,0 +1,67 @@
+# Business Operations Suite Bundle
+# Complete suite for running SaaS business operations
+
+id: business_ops
+name: Business Operations Suite
+description: |
+  Complete business operations suite for running a SaaS company. Includes
+  workflows for customer support, sales pipeline, engineering ops, marketing
+  campaigns, partner management, product development, finance, and legal
+  compliance. All departments work together with unified dashboards and
+  cross-functional automations.
+version: "1.0.0"
+
+category: suite
+tags:
+  - business-operations
+  - saas
+  - support
+  - sales
+  - engineering
+  - marketing
+  - partners
+  - product
+  - finance
+  - legal
+  - compliance
+  - gdpr
+  - incidents
+
+featured: true
+
+contents:
+  templates:
+    - support
+    - sales
+    - engineering
+    - marketing
+    - partners
+    - product
+    - finance
+    - legal
+  extensions:
+    - dev.kiket.ext.email
+    - dev.kiket.ext.slack
+    - dev.kiket.ext.github
+  analytics:
+    - operations_overview
+
+# Core definitions are required, others optional
+required_templates:
+  - support
+  - sales
+  - engineering
+
+optional_templates:
+  - marketing
+  - partners
+  - product
+  - finance
+  - legal
+
+requirements:
+  min_plan: professional
+
+maintainer: Kiket
+documentation: https://docs.kiket.dev/bundles/business-ops
+license: MIT

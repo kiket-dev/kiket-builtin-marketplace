@@ -50,6 +50,48 @@ categories:
     icon: bi-collection
     color: "#8E44AD"
 
+  support:
+    name: Customer Support
+    description: Help desk, ticketing, and customer service workflows
+    icon: bi-headset
+    color: "#3B82F6"
+
+  sales:
+    name: Sales & CRM
+    description: Lead management, pipeline tracking, and sales workflows
+    icon: bi-graph-up-arrow
+    color: "#10B981"
+
+  legal:
+    name: Legal & Compliance
+    description: Contract management, GDPR compliance, and legal workflows
+    icon: bi-shield-check
+    color: "#6366F1"
+
+  finance:
+    name: Finance
+    description: Expense management, approvals, and financial workflows
+    icon: bi-currency-dollar
+    color: "#EF4444"
+
+  partners:
+    name: Partners & Vendors
+    description: Partner management, certifications, and vendor workflows
+    icon: bi-people
+    color: "#F59E0B"
+
+  product:
+    name: Product Management
+    description: Feature requests, roadmap planning, and product development
+    icon: bi-lightbulb
+    color: "#06B6D4"
+
+  engineering:
+    name: Engineering
+    description: Bug tracking, incident response, and engineering operations
+    icon: bi-bug
+    color: "#DC2626"
+
 # Plan levels for feature gating
 plans:
   free:
