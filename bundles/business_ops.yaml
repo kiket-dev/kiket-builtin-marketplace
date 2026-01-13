@@ -86,4 +86,4 @@ template_dependencies:
 
 maintainer: Kiket
 documentation: https://docs.kiket.dev/marketplace/bundles
-license: MIT
+license: Apache-2.0
