@@ -29,6 +29,12 @@ tags:
 
 featured: true
 
+# Canonical bundle source
+source:
+  repository: git@github.com:kiket-dev/kiket-definitions-business-ops.git
+  local_path: definitions/business-ops
+  manifest: manifest.yaml
+
 contents:
   templates:
     - support
